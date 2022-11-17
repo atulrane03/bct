@@ -13,6 +13,7 @@ contract Bank{
         bal=bal-amt;
     }
     function showBalance() view public returns(int){
-        return bal;
+        int temp = bal;
+        return temp;
     }
 }
